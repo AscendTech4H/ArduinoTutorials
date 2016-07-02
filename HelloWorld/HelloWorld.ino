@@ -1,7 +1,7 @@
 //Example - Hello World
 //Prints hello world to the serial port
 //To setup arduino for upload:
-  //Go to Tools -> Port and select the one there
+  //Go to Tools -> Port and select the only one there
 //To upload press the right arrow button in the top left corner
 //To open the serial port, press the magnifying glass button in the top right corner
 
