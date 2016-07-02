@@ -13,6 +13,7 @@ install:
 script:
   - arduino --verify --board arduino:avr:uno $PWD/HelloWorld/HelloWorld.ino
   - arduino --verify --board arduino:avr:uno $PWD/Blink/Blink.ino
+  - arduino --verify --board arduino:avr:uno $PWD/BlinkExternal/BlinkExternal.ino
 notifications:
   email:
     on_success: change
