@@ -10,4 +10,4 @@ void setup() {                    //Setup: Code that runs at startup
   Serial.println("Hello World");  //Print "Hello World" to serial
 }                                 //End of setup
 
-void loop() {}                    //Code that runs repeately after setup - we aren't using it now
+void loop() {}                    //Loop: Code that runs repeately after setup - we aren't using it now
