@@ -15,6 +15,7 @@ script:
   - arduino --verify --board arduino:avr:uno $PWD/Blink/Blink.ino
   - arduino --verify --board arduino:avr:uno $PWD/BlinkExternal/BlinkExternal.ino
   - arduino --verify --board arduino:avr:uno $PWD/DigitalRead/DigitalRead.ino
+  - arduino --verify --board arduino:avr:uno $PWD/SerialIn/SerialIn.ino
 notifications:
   email:
     on_success: change
